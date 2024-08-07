@@ -3,8 +3,8 @@ import shutil
 
 # 定義原始資料夾路徑和目標資料夾路徑
 root_dir = 'DeepPCB-master/PCBData'
-images_output_dir = '/Users/po8_fox/PycharmProjects/yolov7/dataset/PCB/images'
-labels_output_dir = '/Users/po8_fox/PycharmProjects/yolov7/dataset/PCB/labels'
+images_output_dir = 'images'
+labels_output_dir = 'labels'
 
 # 創建目標資料夾
 os.makedirs(images_output_dir, exist_ok=True)

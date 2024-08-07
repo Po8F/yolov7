@@ -3,16 +3,21 @@ import shutil
 import random
 
 def create_dirs(base_path, dirs):
+    """Creates directories if they do not exist."""
     for dir_name in dirs:
         os.makedirs(os.path.join(base_path, dir_name), exist_ok=True)
 
 def save_file_paths(file_paths, file_name, output_dir):
+    """Saves file paths to a text file."""
     with open(os.path.join(output_dir, file_name), 'w') as f:
         for path in file_paths:
+            # 使用雙反斜槓生成路徑
+            path = os.path.abspath(path).replace('\\', '\\\\')
             f.write(f"{path}\n")
 
 def split_dataset(image_dir, label_dir, output_base_dir, train_ratio=0.7, val_ratio=0.15, seed=42):
-    random.seed(seed)  # 設定隨機種子
+    """Splits dataset into train, val, and test sets."""
+    random.seed(seed)  # Set random seed for reproducibility
     images = [f for f in os.listdir(image_dir) if f.endswith('.jpg')]
     random.shuffle(images)
 
@@ -28,6 +33,7 @@ def split_dataset(image_dir, label_dir, output_base_dir, train_ratio=0.7, val_ra
     create_dirs(output_dir, ['train/images', 'train/labels', 'val/images', 'val/labels', 'test/images', 'test/labels'])
 
     def copy_files(image_list, split_name):
+        """Copies image and label files to their respective directories."""
         for image in image_list:
             label = image.replace('.jpg', '.txt')
             shutil.copy(os.path.join(image_dir, image), os.path.join(output_dir, split_name, 'images', image))
@@ -37,12 +43,12 @@ def split_dataset(image_dir, label_dir, output_base_dir, train_ratio=0.7, val_ra
     copy_files(val_images, 'val')
     copy_files(test_images, 'test')
 
-    # 生成 .txt 檔案
-    save_file_paths([os.path.abspath(os.path.join(output_dir, 'train/images', img)) for img in train_images], 'train.txt', output_dir)
-    save_file_paths([os.path.abspath(os.path.join(output_dir, 'val/images', img)) for img in val_images], 'val.txt', output_dir)
-    save_file_paths([os.path.abspath(os.path.join(output_dir, 'test/images', img)) for img in test_images], 'test.txt', output_dir)
+    # Generate .txt files
+    save_file_paths([os.path.join(output_dir, 'train/images', img) for img in train_images], 'train.txt', output_dir)
+    save_file_paths([os.path.join(output_dir, 'val/images', img) for img in val_images], 'val.txt', output_dir)
+    save_file_paths([os.path.join(output_dir, 'test/images', img) for img in test_images], 'test.txt', output_dir)
 
-# 使用示例
+# Example usage
 image_dir = os.path.abspath('dataset/PCB/images')
 label_dir = os.path.abspath('dataset/PCB/labels')
 output_base_dir = os.path.abspath('dataset/PCB')

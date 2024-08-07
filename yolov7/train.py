@@ -1,6 +1,5 @@
 import argparse
 import logging
-import math
 import os
 import random
 import time
@@ -34,11 +33,15 @@ from utils.loss import ComputeLoss, ComputeLossOTA
 from utils.plots import plot_images, plot_labels, plot_results, plot_evolution
 from utils.torch_utils import ModelEMA, select_device, intersect_dicts, torch_distributed_zero_first, is_parallel
 from utils.wandb_logging.wandb_utils import WandbLogger, check_wandb_resume
+import math
+
+import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 logger = logging.getLogger(__name__)
 
 def train(hyp, opt, device, tb_writer=None):
-    # 确保 opt.total_batch_size 存在
+    # 確保 opt.total_batch_size 存在
     if not hasattr(opt, 'total_batch_size'):
         opt.total_batch_size = opt.batch_size
 
@@ -71,7 +74,8 @@ def train(hyp, opt, device, tb_writer=None):
     loggers = {'wandb': None}  # loggers dict
     if rank in [-1, 0]:
         opt.hyp = hyp  # add hyperparameters
-        run_id = torch.load(weights, map_location=device).get('wandb_id') if weights.endswith('.pt') and os.path.isfile(weights) else None
+        run_id = torch.load(weights, map_location='cpu').get(
+            'wandb_id') if weights.endswith('.pt') and os.path.isfile(weights) else None
         wandb_logger = WandbLogger(opt, Path(opt.save_dir).stem, run_id, data_dict)
         loggers['wandb'] = wandb_logger.wandb
         data_dict = wandb_logger.data_dict
@@ -87,7 +91,7 @@ def train(hyp, opt, device, tb_writer=None):
     if pretrained:
         with torch_distributed_zero_first(rank):
             attempt_download(weights)  # download if not found locally
-        ckpt = torch.load(weights, map_location=device)  # load checkpoint
+        ckpt = torch.load(weights, map_location='cpu')  # load checkpoint
         model = Model(opt.cfg or ckpt['model'].yaml, ch=3, nc=nc, anchors=hyp.get('anchors')).to(device)  # create
         exclude = ['anchor'] if (opt.cfg or hyp.get('anchors')) and not opt.resume else []  # exclude keys
         state_dict = ckpt['model'].float().state_dict()  # to FP32
@@ -529,7 +533,7 @@ def train(hyp, opt, device, tb_writer=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', type=str, default='yolo7.pt', help='initial weights path')
+    parser.add_argument('--weights', type=str, default='yolov7-tiny.pt', help='initial weights path')
     parser.add_argument('--cfg', type=str, default='', help='model.yaml path')
     parser.add_argument('--data', type=str, default='data/coco.yaml', help='data.yaml path')
     parser.add_argument('--hyp', type=str, default='data/hyp.scratch.p5.yaml', help='hyperparameters path')
@@ -545,8 +549,8 @@ if __name__ == '__main__':
     parser.add_argument('--bucket', type=str, default='', help='gsutil bucket')
     parser.add_argument('--cache-images', action='store_true', help='cache images for faster training')
     parser.add_argument('--image-weights', action='store_true', help='use weighted image selection for training')
-    parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
-    parser.add_argument('--multi-scale', action='store_true', help='vary img-size +/- 50%%')
+    parser.add_argument('--device', default='cuda', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
+    parser.add_argument('--multi-scale', action='store_true', help='vary img-size +/- 50%')
     parser.add_argument('--single-cls', action='store_true', help='train multi-class data as single-class')
     parser.add_argument('--adam', action='store_true', help='use torch.optim.Adam() optimizer')
     parser.add_argument('--sync-bn', action='store_true', help='use SyncBatchNorm, only available in DDP mode')
@@ -597,12 +601,8 @@ if __name__ == '__main__':
     opt.total_batch_size = opt.batch_size
 
     # Adjust device selection for MPS
-    if torch.backends.mps.is_available():
-        device = torch.device("mps")
-        print("Using MPS device")
-    else:
-        device = select_device(opt.device, batch_size=opt.batch_size)
-        print("Using CUDA/CPU device")
+    device = select_device(opt.device, batch_size=opt.batch_size)
+    print("Using CUDA/CPU device")
 
     if opt.local_rank != -1:
         assert torch.cuda.device_count() > opt.local_rank
@@ -682,7 +682,7 @@ if __name__ == '__main__':
                 w = fitness(x) - fitness(x).min()  # weights
                 if parent == 'single' or len(x) == 1:
                     # x = x[random.randint(0, n - 1)]  # random selection
-                    x = x[random.choices(range(n), weights=w)[0]]  # weighted selection
+                    x = x.random.choices(range(n), weights=w)[0]  # weighted selection
                 elif parent == 'weighted':
                     x = (x * w.reshape(n, 1)).sum(0) / w.sum()  # weighted combination
 

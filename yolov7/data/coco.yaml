@@ -1,7 +1,6 @@
-# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: /Users/po8_fox/PycharmProjects/yolov7/dataset/PCB/split_seed_42/train.txt  # 118287 images
-val: /Users/po8_fox/PycharmProjects/yolov7/dataset/PCB/split_seed_42/val.txt  # 5000 images
-test: /Users/po8_fox/PycharmProjects/yolov7/dataset/PCB/split_seed_42/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: C:\Users\mo\PycharmProjects\yolov7\dataset\PCB\split_seed_42\train.txt
+val: C:\Users\mo\PycharmProjects\yolov7\dataset\PCB\split_seed_42\val.txt
+test: C:\Users\mo\PycharmProjects\yolov7\dataset\PCB\split_seed_42\test.txt
 
 # number of classes
 nc: 6
