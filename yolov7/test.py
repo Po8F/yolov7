@@ -16,7 +16,6 @@ from utils.general import coco80_to_coco91_class, check_dataset, check_file, che
 from utils.metrics import ap_per_class, ConfusionMatrix
 from utils.plots import plot_images, output_to_target, plot_study_txt, plot_one_box
 from utils.torch_utils import select_device, time_synchronized, TracedModel
-from yolov7.test_result import im0s
 
 
 def test(data,
@@ -288,8 +287,7 @@ def test(data,
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='test.py')
-    parser.add_argument('--weights', nargs='+', type=str, default='runs/train/yolov7-tiny42/weights/best.pt',
-                        help='model.pt path(s)')
+    parser.add_argument('--weights', nargs='+', type=str, default='yolov7-tiny.pt',help='model.pt path(s)')
     parser.add_argument('--data', type=str, default='data/coco.yaml', help='*.data path')
     parser.add_argument('--batch-size', type=int, default=32, help='size of each image batch')
     parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
