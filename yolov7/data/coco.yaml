@@ -1,9 +1,8 @@
-train: C:\Users\mo\PycharmProjects\yolov7\dataset\PCB\split_seed_42\train.txt
-val: C:\Users\mo\PycharmProjects\yolov7\dataset\PCB\split_seed_42\val.txt
-test: C:\Users\mo\PycharmProjects\yolov7\dataset\PCB\split_seed_42\test.txt
+train: E:/yolodataset/pj_officestuff/split_seed_42/train/images
+val: E:/yolodataset/pj_officestuff/split_seed_42/val/images
+test: E:/yolodataset/pj_officestuff/split_seed_42/test/images  # 如果有測試集
 
-# number of classes
-nc: 6
+nc: 13  # 類別數量
 
-# class names
-names: [ 'open','short','mousebite','spur','copper','pin-hole' ]
+# 類別名稱列表
+names: ['person', 'backpack', 'bottle', 'cup', 'chair', 'bed', 'table', 'laptop', 'mouse', 'keyboard', 'book', 'clock', 'scissors']

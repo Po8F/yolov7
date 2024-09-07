@@ -6,10 +6,13 @@ from utils.general import non_max_suppression, scale_coords, xyxy2xywh
 from utils.plots import plot_images, plot_one_box
 from models.experimental import attempt_load
 
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # 加载模型
-model = attempt_load('runs/train/yolov7-tiny42/weights/best.pt', map_location='cuda')
+model = attempt_load('yolov7-tiny.pt', map_location='cuda')
 model.eval()
 
+if torch.cuda.is_available():
+    model = model.to('cuda')
 # 加载数据集
 dataset_path = r'C:\Users\mo\PycharmProjects\yolov7\yolov7\data\coco.yaml'
 assert os.path.exists(dataset_path), f"{dataset_path} 文件不存在"
