@@ -5,637 +5,238 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795ab7c8-3b12-4d8a-9285-4082646c7e18" name="更改" comment="to WindowsOS to test">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov7/runs/train/exp/events.out.tfevents.1725705647.DESKTOP-K60GMJV.35216.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov7/runs/train/exp2/events.out.tfevents.1725705751.DESKTOP-K60GMJV.28332.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov7/runs/train/exp3/events.out.tfevents.1725706283.DESKTOP-K60GMJV.31136.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov7/runs/train/exp3/hyp.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov7/runs/train/exp3/opt.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041039.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041043.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041061.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041093.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/00041217.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12000052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12000119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12000136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12000593.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12100185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300216.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300220.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/12300246.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000067.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/13000213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085040.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085045.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085093.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085245.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085251.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085278.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/20085315.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000093.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/44000110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/50600077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000043.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000067.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000081.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/77000102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/90100081.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000039.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/results/92000118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/runs/train/exp/events.out.tfevents.1725708034.DESKTOP-K60GMJV.33532.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/runs/train/exp/hyp.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov7/runs/train/exp/opt.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GPTtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/GPTtest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco.names" beforeDir="false" afterPath="$PROJECT_DIR$/coco.names" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/cfg/deploy/yolov7-tiny.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/cfg/deploy/yolov7-tiny.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/data/coco.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/data/coco.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/models/experimental.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/models/experimental.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041006.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041013.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041014.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041023.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041023.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041039.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041039.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041043.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041043.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041051.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041051.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041054.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041054.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041061.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041061.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041065.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041065.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041088.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041088.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041093.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041093.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041096.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041096.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041114.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041114.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041118.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041118.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041120.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041120.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041130.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041130.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041131.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041131.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041135.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041135.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041138.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041138.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041141.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041141.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041142.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041142.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041145.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041145.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041146.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041146.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041161.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041161.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041163.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041163.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041175.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041175.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041178.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041178.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041186.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041186.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041189.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041189.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041191.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041191.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041198.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041198.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041206.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041206.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041209.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041209.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/00041217.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/00041217.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12000052.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12000052.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12000119.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12000119.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12000136.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12000136.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12000593.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12000593.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100012.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100020.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100022.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100027.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100027.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100048.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100048.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100050.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100050.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100057.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100057.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100133.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100133.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100138.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100138.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100143.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100143.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100146.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100146.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100147.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100147.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100153.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100153.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100154.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100154.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100158.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100158.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100170.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100170.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12100185.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12100185.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300072.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300072.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300116.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300116.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300120.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300120.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300138.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300138.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300141.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300141.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300142.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300142.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300145.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300145.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300216.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300216.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300218.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300218.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300220.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300220.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300226.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300226.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300229.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300229.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300236.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300236.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300238.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300238.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300239.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300239.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300241.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300241.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/12300246.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/12300246.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000011.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000014.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000022.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000026.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000026.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000028.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000028.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000035.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000035.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000059.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000059.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000060.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000060.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000062.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000062.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000063.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000063.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000067.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000067.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000069.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000069.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000073.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000073.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000084.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000084.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000090.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000090.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000113.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000113.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000121.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000121.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000122.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000122.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000132.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000132.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000159.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000159.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000165.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000165.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000167.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000167.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000184.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000184.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000185.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000185.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000210.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000210.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/13000213.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/13000213.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085009.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085032.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085032.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085040.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085040.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085045.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085045.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085046.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085046.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085048.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085048.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085052.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085052.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085063.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085063.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085069.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085069.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085070.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085070.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085082.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085082.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085083.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085083.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085086.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085086.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085093.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085093.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085115.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085115.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085122.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085122.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085126.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085126.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085164.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085164.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085169.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085169.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085170.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085170.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085171.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085171.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085182.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085182.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085195.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085195.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085202.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085202.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085224.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085224.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085229.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085229.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085233.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085233.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085234.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085234.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085244.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085244.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085245.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085245.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085251.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085251.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085263.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085263.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085278.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085278.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085300.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085305.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085305.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/20085315.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/20085315.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000013.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000016.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000025.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000025.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000030.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000030.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000034.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000034.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000051.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000051.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000073.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000073.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000076.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000076.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000079.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000079.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000083.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000083.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000086.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000086.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000092.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000092.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000093.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000093.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000097.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000097.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000098.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000098.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/44000110.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/44000110.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600005.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600010.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600013.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600014.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600020.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600029.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600029.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600041.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600041.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600062.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600062.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600075.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600075.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/50600077.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/50600077.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000005.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000006.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000007.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000010.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000021.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000022.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000027.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000027.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000033.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000033.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000037.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000037.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000043.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000043.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000048.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000048.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000067.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000067.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000081.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000081.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000086.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000086.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000088.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000088.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000101.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/77000102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/77000102.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100006.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100011.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100024.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100027.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100027.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100037.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100037.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100042.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100042.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100056.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100056.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100069.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100069.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100076.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100076.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/90100081.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/90100081.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000005.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000013.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000019.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000022.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000024.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000024.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000035.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000035.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000037.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000037.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000039.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000039.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000049.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000049.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000056.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000056.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000065.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000065.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000076.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000076.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000082.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000082.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000083.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000083.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000086.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000086.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000088.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000088.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000091.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000091.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000097.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000097.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000098.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000098.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000102.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000106.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000107.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000110.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000110.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000112.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000113.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000113.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000115.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000115.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/results/92000118.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/results/92000118.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/F1_curve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/PR_curve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/P_curve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/R_curve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/best_predictions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/test_batch0_labels.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/test_batch0_pred.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/test_batch1_labels.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/test_batch1_pred.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/test_batch2_labels.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/test/exp17/test_batch2_pred.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp/events.out.tfevents.1722495842.Po8MacdeMacBook-Air.local.92001.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp/events.out.tfevents.1725690326.DESKTOP-K60GMJV.28420.0" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/runs/train/exp/events.out.tfevents.1725690326.DESKTOP-K60GMJV.28420.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp/opt.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/runs/train/exp/opt.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/runs/train/exp/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp/weights/last.pt" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/runs/train/exp/weights/last.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp10/events.out.tfevents.1722604229.Po8MacdeMacBook-Air.local.1613.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp10/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp10/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp10/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp11/events.out.tfevents.1722604972.Po8MacdeMacBook-Air.local.1815.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp11/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp11/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp12/events.out.tfevents.1722605595.Po8MacdeMacBook-Air.local.1962.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp12/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp12/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp12/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp13/events.out.tfevents.1722605742.Po8MacdeMacBook-Air.local.2039.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp13/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp13/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp13/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp14/events.out.tfevents.1722837204.Po8MacdeMacBook-Air.local.3534.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp14/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp14/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp14/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/events.out.tfevents.1722837435.Po8MacdeMacBook-Air.local.3713.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp15/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/events.out.tfevents.1722841142.Po8MacdeMacBook-Air.local.4579.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/weights/best.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/weights/epoch_000.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp16/weights/last.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp17/events.out.tfevents.1722964587.DESKTOP-K60GMJV.23712.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp17/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp17/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp18/events.out.tfevents.1722964644.DESKTOP-K60GMJV.568.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp18/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp18/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp19/events.out.tfevents.1722964688.DESKTOP-K60GMJV.14604.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp19/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp19/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp2/events.out.tfevents.1722496209.Po8MacdeMacBook-Air.local.93280.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp2/opt.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/runs/train/exp2/opt.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp20/events.out.tfevents.1722964710.DESKTOP-K60GMJV.23752.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp20/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp20/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp21/events.out.tfevents.1722965480.DESKTOP-K60GMJV.20552.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp21/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp21/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp21/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp22/events.out.tfevents.1722966032.DESKTOP-K60GMJV.3960.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp22/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp22/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp22/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp23/events.out.tfevents.1722966393.DESKTOP-K60GMJV.3580.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp23/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp23/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp23/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp24/events.out.tfevents.1722966667.DESKTOP-K60GMJV.25036.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp24/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp24/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp25/events.out.tfevents.1722966780.DESKTOP-K60GMJV.25544.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp25/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp25/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp25/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp26/events.out.tfevents.1722968288.DESKTOP-K60GMJV.21060.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp26/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp26/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp26/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp27/events.out.tfevents.1723011786.DESKTOP-K60GMJV.3796.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp27/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp27/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp28/events.out.tfevents.1723012214.DESKTOP-K60GMJV.25228.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp28/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp28/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp29/events.out.tfevents.1723012230.DESKTOP-K60GMJV.7432.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp29/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp29/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp3/events.out.tfevents.1722602568.Po8MacdeMacBook-Air.local.1256.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp30/events.out.tfevents.1723012406.DESKTOP-K60GMJV.25192.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp30/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp30/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp30/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp31/events.out.tfevents.1723012891.DESKTOP-K60GMJV.25784.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp31/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp31/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp4/events.out.tfevents.1722602627.Po8MacdeMacBook-Air.local.1278.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp5/events.out.tfevents.1722603166.Po8MacdeMacBook-Air.local.1360.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp6/events.out.tfevents.1722603206.Po8MacdeMacBook-Air.local.1380.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp7/events.out.tfevents.1722603278.Po8MacdeMacBook-Air.local.1398.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp8/events.out.tfevents.1722603872.Po8MacdeMacBook-Air.local.1479.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp8/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp8/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp9/events.out.tfevents.1722603938.Po8MacdeMacBook-Air.local.1491.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp9/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp9/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp9/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp9/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/exp9/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny/events.out.tfevents.1722496685.Po8MacdeMacBook-Air.local.93347.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny10/events.out.tfevents.1722497667.Po8MacdeMacBook-Air.local.94204.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny10/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny10/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny11/events.out.tfevents.1722497743.Po8MacdeMacBook-Air.local.94267.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny11/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny11/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/events.out.tfevents.1722497843.Po8MacdeMacBook-Air.local.94413.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/weights/best.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/weights/epoch_000.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny12/weights/last.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny13/events.out.tfevents.1722501539.Po8MacdeMacBook-Air.local.95789.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny13/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny13/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny13/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny13/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny13/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny13/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny13/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny14/events.out.tfevents.1722502003.Po8MacdeMacBook-Air.local.95915.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny14/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny14/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/events.out.tfevents.1722598055.Po8MacdeMacBook-Air.local.97184.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny15/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/events.out.tfevents.1722598700.Po8MacdeMacBook-Air.local.97433.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny16/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/events.out.tfevents.1722599028.Po8MacdeMacBook-Air.local.97653.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny17/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/events.out.tfevents.1722599454.Po8MacdeMacBook-Air.local.99601.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny18/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/events.out.tfevents.1722929464.Po8MacdeMacBook-Air.local.10402.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny19/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny2/events.out.tfevents.1722496803.Po8MacdeMacBook-Air.local.93376.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny2/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny2/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny20/events.out.tfevents.1722930011.Po8MacdeMacBook-Air.local.10649.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny20/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny20/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny20/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny20/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny20/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny20/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/events.out.tfevents.1722930239.Po8MacdeMacBook-Air.local.10744.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny21/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny22/events.out.tfevents.1722944570.DESKTOP-K60GMJV.17536.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny22/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny22/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny23/events.out.tfevents.1722944828.DESKTOP-K60GMJV.5540.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny23/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny23/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny24/events.out.tfevents.1722944856.DESKTOP-K60GMJV.24096.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny24/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny24/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny25/events.out.tfevents.1722944947.DESKTOP-K60GMJV.12296.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny25/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny25/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny26/events.out.tfevents.1722945010.DESKTOP-K60GMJV.28152.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny26/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny26/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny27/events.out.tfevents.1722945096.DESKTOP-K60GMJV.15036.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny27/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny27/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny28/events.out.tfevents.1722945110.DESKTOP-K60GMJV.32832.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny28/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny28/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny29/events.out.tfevents.1722945155.DESKTOP-K60GMJV.31676.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny29/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny29/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny3/events.out.tfevents.1722496914.Po8MacdeMacBook-Air.local.93404.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny3/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny3/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny30/events.out.tfevents.1722945195.DESKTOP-K60GMJV.21716.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny30/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny30/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny31/events.out.tfevents.1722945242.DESKTOP-K60GMJV.25996.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny31/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny31/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny32/events.out.tfevents.1722945368.DESKTOP-K60GMJV.7220.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny32/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny32/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny33/events.out.tfevents.1722945427.DESKTOP-K60GMJV.26348.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny33/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny33/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny34/events.out.tfevents.1722945521.DESKTOP-K60GMJV.28640.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny34/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny34/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny34/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny35/events.out.tfevents.1722963815.DESKTOP-K60GMJV.11844.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny35/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny35/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny36/events.out.tfevents.1722963910.DESKTOP-K60GMJV.10632.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny36/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny36/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny37/events.out.tfevents.1722964383.DESKTOP-K60GMJV.2428.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny37/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny37/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny38/events.out.tfevents.1722964415.DESKTOP-K60GMJV.23596.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny38/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny38/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny39/events.out.tfevents.1722968727.DESKTOP-K60GMJV.12000.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny39/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny39/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny4/events.out.tfevents.1722497058.Po8MacdeMacBook-Air.local.93573.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny4/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny4/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny40/events.out.tfevents.1722968799.DESKTOP-K60GMJV.4380.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny40/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny40/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny40/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny41/events.out.tfevents.1722969310.DESKTOP-K60GMJV.3448.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny41/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny41/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/F1_curve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/PR_curve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/P_curve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/R_curve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/events.out.tfevents.1723013114.DESKTOP-K60GMJV.9184.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/results.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/test_batch0_labels.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/test_batch0_pred.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/test_batch1_labels.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/test_batch1_pred.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/test_batch2_labels.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/test_batch2_pred.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/train_batch9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/best.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_000.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_024.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_049.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_074.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_099.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_124.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_149.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_174.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_199.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_224.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_249.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_274.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_295.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_296.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_297.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_298.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/epoch_299.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/init.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny42/weights/last.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny5/events.out.tfevents.1722497084.Po8MacdeMacBook-Air.local.93679.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny5/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny5/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny6/events.out.tfevents.1722497298.Po8MacdeMacBook-Air.local.93738.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny6/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny6/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny7/events.out.tfevents.1722497340.Po8MacdeMacBook-Air.local.93855.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny7/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny7/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny8/events.out.tfevents.1722497435.Po8MacdeMacBook-Air.local.94029.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny8/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny8/opt.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny9/events.out.tfevents.1722497532.Po8MacdeMacBook-Air.local.94138.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny9/hyp.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/runs/train/yolov7-tiny9/opt.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov7/cfg/training/yolov7-tiny.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/cfg/training/yolov7-tiny.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov7/test_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/test_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov7/utils/google_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolov7/utils/google_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -866,11 +467,11 @@
     <SUITE FILE_PATH="coverage/yolov7$present_result.coverage" NAME="present_result 覆盖结果" MODIFIED="1723042102964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov7" />
     <SUITE FILE_PATH="coverage/yolov7$spilt_data.coverage" NAME="spilt_data 覆盖结果" MODIFIED="1722945041583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset/PCB" />
     <SUITE FILE_PATH="coverage/yolov7$move_officestuff_dataset.coverage" NAME="move_officestuff_dataset 覆盖结果" MODIFIED="1725644664193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yolov7$GPTtest.coverage" NAME="GPTtest 覆盖结果" MODIFIED="1725706601051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolov7$GPTtest.coverage" NAME="GPTtest 覆盖结果" MODIFIED="1725708433273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yolov7$metal.coverage" NAME="metal 覆盖结果" MODIFIED="1722959762947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov7" />
     <SUITE FILE_PATH="coverage/yolov7$test_result.coverage" NAME="test_result 覆盖结果" MODIFIED="1723050383197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov7" />
     <SUITE FILE_PATH="coverage/yolov7$windowsOS_train.coverage" NAME="windowsOS_train 覆盖结果" MODIFIED="1725633775557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov7" />
     <SUITE FILE_PATH="coverage/yolov7$experimental.coverage" NAME="experimental 覆盖结果" MODIFIED="1721985306019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov7/models" />
-    <SUITE FILE_PATH="coverage/yolov7$train.coverage" NAME="train 覆盖结果" MODIFIED="1725706443584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov7" />
+    <SUITE FILE_PATH="coverage/yolov7$train.coverage" NAME="train 覆盖结果" MODIFIED="1725708579492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov7" />
   </component>
 </project>
